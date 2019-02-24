@@ -58,6 +58,8 @@ public class TableViewCellLayoutCreator {
         fillMiddleView(edges: ConstraintEdges(leading: nil, trailing: 0, top: 0, bottom: 0))
         
         addLeadingAnchor()
+        
+        addLeadingOrTrailingView(view: leadingView!)
     }
     
     private func addMiddleViewWithTrailingView() {
@@ -65,6 +67,8 @@ public class TableViewCellLayoutCreator {
         fillMiddleView(edges: ConstraintEdges(leading: 0, trailing: nil, top: 0, bottom: 0))
         
         addTrailingAnchor()
+        
+        addLeadingOrTrailingView(view: trailingView!)
     }
     
     private func addMiddleViewWithLeadingAndTrailingView() {
@@ -74,6 +78,9 @@ public class TableViewCellLayoutCreator {
         
         addLeadingAnchor()
         addTrailingAnchor()
+        
+        addLeadingOrTrailingView(view: leadingView!)
+        addLeadingOrTrailingView(view: trailingView!)
     }
     
     private func fillTrailingView() {
@@ -94,5 +101,13 @@ public class TableViewCellLayoutCreator {
     
     private func addLeadingAnchor() {
         middleView.leadingAnchor.constraint(equalTo: leadingView!.trailingAnchor, constant: spaceBetweenViews).isActive = true
+    }
+    
+    private func addLeadingOrTrailingView(view: UIView) {
+        view.equal(to: middleView, height: true, width: false)
+        view.setSameCenterY(view: middleView)
+        
+        view.setContentCompressionResistance(999)
+        view.setContentHugging(251)
     }
 }
