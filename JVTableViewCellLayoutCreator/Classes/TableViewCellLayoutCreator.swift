@@ -8,8 +8,10 @@ public class TableViewCellLayoutCreator {
     
     private unowned let middleView: UIView
     private unowned let toCell: TableViewCellInnerContentView
-    private unowned var leadingView: UIView?
-    private unowned var trailingView: UIView?
+    
+    // TODO: Change 'weak' to 'unowned' when Swift 5.0 is officially supported
+    private weak var leadingView: UIView?
+    private weak var trailingView: UIView?
     
     private init(middleView: UIView, toCell: TableViewCellInnerContentView, leadingView: UIView? = nil, trailingView: UIView? = nil) {
         self.middleView = middleView
