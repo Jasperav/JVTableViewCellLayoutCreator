@@ -1,0 +1,6 @@
+framework module Pods_JVTableViewCellLayoutCreator_Tests {
+  umbrella header "Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

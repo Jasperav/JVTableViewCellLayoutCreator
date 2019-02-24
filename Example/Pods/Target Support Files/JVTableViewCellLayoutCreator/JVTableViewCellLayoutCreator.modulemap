@@ -1,0 +1,6 @@
+framework module JVTableViewCellLayoutCreator {
+  umbrella header "JVTableViewCellLayoutCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}
