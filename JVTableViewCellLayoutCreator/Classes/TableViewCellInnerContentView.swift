@@ -2,15 +2,20 @@ import JVConstraintEdges
 
 open class TableViewCellInnerContentView: UITableViewCell {
     
+    open class var edges: ConstraintEdges {
+        fatalError()
+    }
+    
     public let innerContentView = UIView()
     
-    private var didSetConstraints = false
-    
-    public func set(edges: ConstraintEdges) {
-        #if DEBUG
-        assert(!didSetConstraints)
-        didSetConstraints = true
-        #endif
-        innerContentView.fill(toSuperview: contentView, edges: edges)
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        innerContentView.fill(toSuperview: innerContentView, edges: type(of: self).edges)
     }
+    
+    public required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 }
