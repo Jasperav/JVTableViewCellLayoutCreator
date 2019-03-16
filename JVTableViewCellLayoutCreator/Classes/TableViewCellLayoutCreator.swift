@@ -20,7 +20,12 @@ public class TableViewCellLayoutCreator {
         self.trailingView = trailingView
     }
     
-    public static func create(middleView: UIView, toCell: TableViewCellInnerContentView, leadingView: UIView? = nil, trailingView: UIView? = nil) {
+    public static func create(middleView: UIView,
+                              toCell: TableViewCellInnerContentView,
+                              innerContentViewEdges: ConstraintEdges,
+                              leadingView: UIView? = nil,
+                              trailingView: UIView? = nil) {
+        toCell.set(edges: innerContentViewEdges)
         
         let layoutCreator = TableViewCellLayoutCreator(middleView: middleView, toCell: toCell, leadingView: leadingView, trailingView: trailingView)
         

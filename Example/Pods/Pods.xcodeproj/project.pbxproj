@@ -7,40 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA98851A6D53C86DA0E531E456347A2 /* JVTableViewCellLayoutCreator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB033D67E8777D3073790C9063C1A8A /* JVTableViewCellLayoutCreator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		292B81326C66EFE8EE92C8404984C830 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1385360FC1FEA67A0DDF1432CDCE1 /* Copyable.swift */; };
-		2A78A2A538E939246AAA118BE81F9FD0 /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7748026DD28535A8297D81EFAD0495 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		027BE10545A4671C90DAFFF263FC7455 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C89A25C3B4F2F1F984CE4A11120C9 /* ContentType.swift */; };
+		1A8988E3D196DF592D182DF645185D6E /* JVTableViewCellLayoutCreator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C125A1DDC35AE02664A3C46E69A307D1 /* JVTableViewCellLayoutCreator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE982BC7FA5555BAC9020AEDDD3F288 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA62471EB9FDEF9107ED7C8091B654CF /* StringExtensions.swift */; };
 		2F0EF7D45A202B6C0CFB1670E7EBEE91 /* Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B25340D007193DA24104C5C42C87D21 /* Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33A737D476A635377BB6F18B50BB5798 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2964B2F2BB11D4BA5DF3B2CCB1DA2DB /* JVSizeable-dummy.m */; };
-		45BC2F5CBE925C4642012C37CF6A09CD /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A6988DFF5DC221BDB6145F34267995 /* Anchor.swift */; };
-		4C15401A232850C17DA128335E5CCAFA /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD6202EB7E8A958806E082AD983620A /* JVConstraintEdges.framework */; };
-		5320AB9861AE1CC0FB5BD07FA0F7ADF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
-		59AC9C192A4842BFF87B797E3DDCB4F0 /* JVTableViewCellLayoutCreator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C3A442A5A39308EDF4841399396C2 /* JVTableViewCellLayoutCreator-dummy.m */; };
-		5EE89AA76BEDE57C6C20F2EC19ACD7AB /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA24B1F43B7BDC047A8BF7DC88FE7 /* UIViewFillExtension.swift */; };
-		64DC3700ADA94A8870B32A902B9DA285 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCFCDA6E1A40390CC321F628B4E7FC /* ContentType.swift */; };
-		6639A37CA026238C2FCDEC9AA46FB1E2 /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773C9BC96FA8637B9BE022A449F578D /* ContentTypeConstraintEdges.swift */; };
-		69111BE82222E574005F3122 /* TableViewCellInnerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69111BE72222E574005F3122 /* TableViewCellInnerContentView.swift */; };
-		6C0C1839193CD34BE365AF566F70D189 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7BE6401C71A4D7307E0A906E7627EB /* JVSizeable.framework */; };
-		7898A5D079F39FA76DE94DB0379FFC5F /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9BB12B0D0E333E6E3312E340AEB1F /* CollectionExtensions.swift */; };
-		81AC8249A40B9F2D621FF3ED44B8A47E /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C763C6A83C5EBC087F25AD1459D696B4 /* ConstraintEdges.swift */; };
-		83046384C1CD94E90484050357525371 /* TableViewCellLayoutCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D004834252D7F7E347EC63D3C7A766 /* TableViewCellLayoutCreator.swift */; };
-		848C874B34B53D6FC6E056576601CEB7 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790760DEE0913376032FFF9999BF0F35 /* CGFloatExtensions.swift */; };
+		3D439A8C46DDE2732A11D879FA903DA6 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7959C24DBAF56DCF4C42E82DFF142C8 /* JVSizeable-dummy.m */; };
+		4DA2F76205DA439FB77C9CC41B5890D3 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B14D64D5368B8DD996A441CDF0DDB /* ContentTypeInitializable.swift */; };
+		4DAB8B3444AA1E00E0E7E7C1E1E062BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
+		69ACE2A6E947D073ACCBE28219A8AEA8 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06028BECFCEFAB35CC7C99A6D70A65 /* CollectionExtensions.swift */; };
+		7A9A2985BF288302AF118E914BAF6222 /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD6202EB7E8A958806E082AD983620A /* JVConstraintEdges.framework */; };
+		7B221F8818DEACD7CDF0B90DEF96C015 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7BE6401C71A4D7307E0A906E7627EB /* JVSizeable.framework */; };
+		7F6A9070E067399AFA7C582C0E854E03 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11682BB1A0E926AF8290DB8C22B616 /* Copyable.swift */; };
+		81294113734E14488FCE6FC410E97061 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4DD287A2FF6B06C7374674F422721 /* Sizeable.swift */; };
+		85A820998A2B6064E6F4C8CDF36280BB /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE165104A241C5B2D2552CF473BBA47 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EA04BAA77C7690EF837CE04F364755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
+		93D7D080C626879136810F4936A7580F /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095D655EC9B28C005CEAB1ED2E705B /* ContentTypeConstraintEdges.swift */; };
 		95E3AC328DCFA644C533DEB4778A8145 /* Pods-JVTableViewCellLayoutCreator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B2F9284938487271CA2ACEFA61F38 /* Pods-JVTableViewCellLayoutCreator_Tests-dummy.m */; };
-		974AB9B20905641B2995ABC0FA568CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
-		A63DF6640F11D29278015569D32930A8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B854750AD4F5D409AC39C3905E94C6 /* StringExtensions.swift */; };
-		A8D06B4C378999E08F6DF45D17F013FE /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394F85958E3C1F80D9ED0666D5F4458 /* ContentTypeGroup.swift */; };
-		B5C6502AF88176E692361DB227809E15 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B8C10595065A23FC53621BC7110160 /* JVContentType.framework */; };
-		BB3D0A8A47845475D7100DA531CC6500 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FC7695EB7AB4F75F6875DB5448B787 /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC0B096048660763A697B5DCA5494A87 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC235421F80BC79A99804B275B52A6 /* ContentTypeInitializable.swift */; };
-		C4E86D4007FF32BD7C2AFD441A79D4DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
+		9926387B233EF0E8C096F61803516430 /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858CAD2123FD87912BD5657AA154E45E /* JVConstraintEdges-dummy.m */; };
+		9BB5D0627296A53D1678247749D58D8C /* TableViewCellInnerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F46A0629E07875C3DDA307ACB8295 /* TableViewCellInnerContentView.swift */; };
+		A25DA0A7A634F36CE5B4FD8949AA8772 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96061C4EB2B736333362426E8FE799A5 /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE3FB46F1AD996E487A95661C828E6E /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3228942605149410F98459E49502B5 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B037D7DA2E2FF4AD8404618A29EFDF1A /* ModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236C23F367A2B9A1F337D04FB79E2B2 /* ModelCreator.swift */; };
 		C56ECE440DADC4FF84D388649AEB1A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
-		C90D5B2128533B38A014FCF583DCDD96 /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F553D2D399DA4B58C72110F78DE50419 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEA1F5B5017FC819AD24A9317AFD4086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
-		CF9EF779BED3FF44FE6AED76995EF4BC /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFFB81FA08BD1FECC90622C8ABB50B /* ContentTypeGroupInitializable.swift */; };
-		D08C38BA45B80D56DB5096F51F9F8535 /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 847467A63809D784BD64532CD8D37EF5 /* JVConstraintEdges-dummy.m */; };
-		EA721B6B962AFE1E1A2E7C277EB24C9D /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D30337D58EF5E6508371F8678E307D /* Sizeable.swift */; };
-		EB78AF77C87A2BC69B0D0026F6CA05F7 /* ModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EAD59283205225E87D09762491CF15 /* ModelCreator.swift */; };
-		F5646A2565E09E0B25FFB3D7D6F508A2 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0391B75827AFBC3F3F4B99F045B1CE3 /* JVContentType-dummy.m */; };
+		C69247FB7A86D52BBBABFD05AFE27DF8 /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FEDE8344867EA9E53789C927D561D /* UIViewFillExtension.swift */; };
+		D4DB6F347E2C955E2DB08012357B0D80 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4925EBD22CEC46FE140A72D81A663 /* Anchor.swift */; };
+		D5AC900D034ACA7E047AC20631790941 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913F1ADF21D6EEBABCBEF43C54D97F0 /* ContentTypeGroupInitializable.swift */; };
+		D8CDBE215AB364E3A22265772F4D5101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
+		DBD2D4867E9ABB27D7C93BFD4DC3D5CE /* ConstraintAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F391249782AE2B34EF516ACE88FAA5 /* ConstraintAnchor.swift */; };
+		DD532B48D78D1672D5448227A2267A82 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22E7769262309916ED213C7DCB6A52 /* CGFloatExtensions.swift */; };
+		E19C377654508E0C02BAB36809624BF7 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4239B6BA087F376120D80B33C4F55 /* ContentTypeGroup.swift */; };
+		E1BB636D9D27984BBDFCA92F1BB3AFBF /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B8C10595065A23FC53621BC7110160 /* JVContentType.framework */; };
+		E2CB5D368E576DBF85A21BC3F383426F /* JVTableViewCellLayoutCreator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF9ADF2AD3A5C8775CDB6A512450E8 /* JVTableViewCellLayoutCreator-dummy.m */; };
+		E2FF61972AA6C5C8D4127C48572CF880 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E535B62DA846741E93DF44804CCB2A /* JVContentType-dummy.m */; };
+		E74BAFB34796607A87A3467F0AC395D3 /* TableViewCellLayoutCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC8CD1691A3C2EBE51FE72AB925ED8 /* TableViewCellLayoutCreator.swift */; };
+		ECB152D76A89D392B552FD317ADA44D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */; };
+		FCD9C4ED71A819A9C8A64638B586CE0B /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC71338EB976DE7D007398EC68F92B8 /* ConstraintEdges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,142 +49,144 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE89CC8BCF70FDA2DC587C011C7BCE02;
+			remoteGlobalIDString = 9BB1C7FF1E93ABAAF72E627FBD99E9FB;
 			remoteInfo = JVContentType;
 		};
-		51F8EBA1D18AD890CF56EED4723144F6 /* PBXContainerItemProxy */ = {
+		4831C5B7F952B922CEC7472141A2C1CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1DEC7A5A11413A75DC99437EB04528D2;
+			remoteGlobalIDString = 8F31B948899BCA67DD2078010378AFBC;
 			remoteInfo = JVSizeable;
 		};
 		5FAEB12F7E0910F4D1DB74EE1A6293A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1DEC7A5A11413A75DC99437EB04528D2;
+			remoteGlobalIDString = 8F31B948899BCA67DD2078010378AFBC;
 			remoteInfo = JVSizeable;
 		};
-		76CDF2FC744256AECDE6A4B72DD58C61 /* PBXContainerItemProxy */ = {
+		6A0BD1BEB73AC4DAC3388937221B149B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE89CC8BCF70FDA2DC587C011C7BCE02;
-			remoteInfo = JVContentType;
+			remoteGlobalIDString = 60A8CA69C4722A2E22B9936A41B5DF43;
+			remoteInfo = JVConstraintEdges;
 		};
 		A3F53A7407F4B2CF1FFA3452C8783ECA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 379889D67B2FB3B14FFC7C1E750A1EFC;
+			remoteGlobalIDString = C1CA02FEF11F342A94BDE49CF7A65F9E;
 			remoteInfo = JVTableViewCellLayoutCreator;
 		};
 		A8B941B8F3155F6F7BC2E40365D08D48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0561B4A554A3FD7E1538D1A0116E67FD;
+			remoteGlobalIDString = 60A8CA69C4722A2E22B9936A41B5DF43;
 			remoteInfo = JVConstraintEdges;
 		};
-		E7D47DAAE63C8BE1F138D5DFFB0454CD /* PBXContainerItemProxy */ = {
+		F051683948854CBBF3B2868935F14060 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0561B4A554A3FD7E1538D1A0116E67FD;
-			remoteInfo = JVConstraintEdges;
+			remoteGlobalIDString = 9BB1C7FF1E93ABAAF72E627FBD99E9FB;
+			remoteInfo = JVContentType;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FC7695EB7AB4F75F6875DB5448B787 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
+		008FEDE8344867EA9E53789C927D561D /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
+		050EB1536466ADEE77AD72363CEDC043 /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
 		08D014744455B7CDCFBFF527AB601EDA /* Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BF9BB12B0D0E333E6E3312E340AEB1F /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
-		0DB1385360FC1FEA67A0DDF1432CDCE1 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		0A85709B25F9C63D4F1A5E227E6CFE28 /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
+		0CF6B90DFD7416359C53B06AE4FD6FE9 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
+		0D43883492290EE957F25D7ABD51044C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0DD6202EB7E8A958806E082AD983620A /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		130C3A442A5A39308EDF4841399396C2 /* JVTableViewCellLayoutCreator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTableViewCellLayoutCreator-dummy.m"; sourceTree = "<group>"; };
+		1236C23F367A2B9A1F337D04FB79E2B2 /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
+		148B14D64D5368B8DD996A441CDF0DDB /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		1B25340D007193DA24104C5C42C87D21 /* Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		259FD627789D75501F8E60B294D2E31A /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
-		2DAFFB81FA08BD1FECC90622C8ABB50B /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
-		32D004834252D7F7E347EC63D3C7A766 /* TableViewCellLayoutCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellLayoutCreator.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellLayoutCreator.swift; sourceTree = "<group>"; };
-		377813DB33BFEF8B5BA812AF8B2B36F3 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42D30337D58EF5E6508371F8678E307D /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
+		2A2CC8962E29657E0284E55017CAEE52 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
+		2BC71338EB976DE7D007398EC68F92B8 /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
+		377813DB33BFEF8B5BA812AF8B2B36F3 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCC8CD1691A3C2EBE51FE72AB925ED8 /* TableViewCellLayoutCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellLayoutCreator.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellLayoutCreator.swift; sourceTree = "<group>"; };
+		427434807D1C68479F9597A1FD56DF4C /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
+		47BC2548526C151BC4E8573DF4A15872 /* JVTableViewCellLayoutCreator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTableViewCellLayoutCreator.xcconfig; sourceTree = "<group>"; };
 		4A7BE6401C71A4D7307E0A906E7627EB /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7748026DD28535A8297D81EFAD0495 /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
-		4DFB6A8A3B434A406A380A150E3AC428 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
-		55A6988DFF5DC221BDB6145F34267995 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
-		5773C9BC96FA8637B9BE022A449F578D /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		58144ADE8EB37D44FC8B2A9FC8ACC830 /* Pods-JVTableViewCellLayoutCreator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTableViewCellLayoutCreator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		58D7424995CCBB0C50574F6836A8E126 /* Pods_JVTableViewCellLayoutCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVTableViewCellLayoutCreator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58EAD59283205225E87D09762491CF15 /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
-		5B3753D8FB0423C091A7ED72CF7B5346 /* JVTableViewCellLayoutCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVTableViewCellLayoutCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B94B7973835A8B426E02BBC58387A6B /* JVTableViewCellLayoutCreator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTableViewCellLayoutCreator.xcconfig; sourceTree = "<group>"; };
-		5D1232F34B9C38A20ED96C1E19889DBC /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D7424995CCBB0C50574F6836A8E126 /* Pods_JVTableViewCellLayoutCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVTableViewCellLayoutCreator_Tests.framework; path = "Pods-JVTableViewCellLayoutCreator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3753D8FB0423C091A7ED72CF7B5346 /* JVTableViewCellLayoutCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVTableViewCellLayoutCreator.framework; path = JVTableViewCellLayoutCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1232F34B9C38A20ED96C1E19889DBC /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F11682BB1A0E926AF8290DB8C22B616 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
 		62B39325B32082E4C98D110371572787 /* Pods-JVTableViewCellLayoutCreator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTableViewCellLayoutCreator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		653D56CC1703C4A11F2CA140ABE236DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69111BE72222E574005F3122 /* TableViewCellInnerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCellInnerContentView.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellInnerContentView.swift; sourceTree = "<group>"; };
-		71FCFCDA6E1A40390CC321F628B4E7FC /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
-		790760DEE0913376032FFF9999BF0F35 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
-		7E128FE450430436B7201D20B720C324 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
-		7E5EA24B1F43B7BDC047A8BF7DC88FE7 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
-		847467A63809D784BD64532CD8D37EF5 /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
-		87C622A3D500B2FB858BEAB4E8B6B9BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		65EA4C001C5335A90EE5958A09A3E086 /* JVTableViewCellLayoutCreator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVTableViewCellLayoutCreator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72649C744E72CE300EB57FB5D6DB74B3 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		7A06028BECFCEFAB35CC7C99A6D70A65 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
+		800CF3BB326B50C56188B820113D9651 /* JVTableViewCellLayoutCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTableViewCellLayoutCreator-prefix.pch"; sourceTree = "<group>"; };
+		80F391249782AE2B34EF516ACE88FAA5 /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
+		8563433C707D0397E2F4B35ADE527B24 /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
+		858CAD2123FD87912BD5657AA154E45E /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
+		88095D655EC9B28C005CEAB1ED2E705B /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		89800642DE387E6F743E9B16F4B15719 /* Pods-JVTableViewCellLayoutCreator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTableViewCellLayoutCreator_Tests-Info.plist"; sourceTree = "<group>"; };
-		8AFE88D3E65FE64A937348FCF9E3584C /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
-		8D8FEDAC5FE5AD576E90D52CB01C4AF3 /* JVTableViewCellLayoutCreator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JVTableViewCellLayoutCreator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		922DF22A708D4EDF7842D55BD518C06E /* JVTableViewCellLayoutCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTableViewCellLayoutCreator-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F510724EDC4DD7289637266466BF58A /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F6E20963997AF7BDBA7A5096FAFE139 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
-		A0391B75827AFBC3F3F4B99F045B1CE3 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
-		A1D87D6879E4F0F25EE5BCB494749EF8 /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
-		A2964B2F2BB11D4BA5DF3B2CCB1DA2DB /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
-		A2BFEE1ABA5D6A566EF7F8574B14D704 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
-		ADB033D67E8777D3073790C9063C1A8A /* JVTableViewCellLayoutCreator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTableViewCellLayoutCreator-umbrella.h"; sourceTree = "<group>"; };
+		8F22E7769262309916ED213C7DCB6A52 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		96061C4EB2B736333362426E8FE799A5 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F510724EDC4DD7289637266466BF58A /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913F1ADF21D6EEBABCBEF43C54D97F0 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		AA62471EB9FDEF9107ED7C8091B654CF /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		AC71762C970CACEA2046DB1DABC9805D /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
 		B07337C72863C4F4B7A609D5B6488DC4 /* Pods-JVTableViewCellLayoutCreator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVTableViewCellLayoutCreator_Tests.modulemap"; sourceTree = "<group>"; };
-		B394F85958E3C1F80D9ED0666D5F4458 /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
 		B39B2F9284938487271CA2ACEFA61F38 /* Pods-JVTableViewCellLayoutCreator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTableViewCellLayoutCreator_Tests-dummy.m"; sourceTree = "<group>"; };
-		B5B854750AD4F5D409AC39C3905E94C6 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		B7959C24DBAF56DCF4C42E82DFF142C8 /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
 		B86E51B3D1F49FB66C6AA96D9D97727B /* Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B97DB2125CBB787032902041003A170A /* Pods-JVTableViewCellLayoutCreator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTableViewCellLayoutCreator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C763C6A83C5EBC087F25AD1459D696B4 /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
-		C9F3B1D85D6ECE438D4F165D13ED529B /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
-		CDAC235421F80BC79A99804B275B52A6 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
-		D1555A7290180376E2716AF1F5B88A9F /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
+		B9C4DD287A2FF6B06C7374674F422721 /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
+		BBE165104A241C5B2D2552CF473BBA47 /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
+		BFD5EC1AD2BDFF33F0ECCFC8AC728BBF /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		C125A1DDC35AE02664A3C46E69A307D1 /* JVTableViewCellLayoutCreator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTableViewCellLayoutCreator-umbrella.h"; sourceTree = "<group>"; };
+		C892F63DCEF1B18E74DE733638885D4A /* JVTableViewCellLayoutCreator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTableViewCellLayoutCreator-Info.plist"; sourceTree = "<group>"; };
+		C9E230E80867D671D5F4E0B901557A12 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
+		CAC12B480177D01FEBAF6A791408798C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB3228942605149410F98459E49502B5 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
+		CB545C5237A7D0F3767682432E91456A /* JVTableViewCellLayoutCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTableViewCellLayoutCreator.modulemap; sourceTree = "<group>"; };
+		CD2105F818738ACA1C4B43FD582868A7 /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
+		D8E535B62DA846741E93DF44804CCB2A /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
+		D9FF9ADF2AD3A5C8775CDB6A512450E8 /* JVTableViewCellLayoutCreator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTableViewCellLayoutCreator-dummy.m"; sourceTree = "<group>"; };
+		DFC4925EBD22CEC46FE140A72D81A663 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
 		E5B8C10595065A23FC53621BC7110160 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6124358BC1244692E009D11DE33961B /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
-		EA9FAAD30240FC130869BE6A0EA97655 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
-		EEC7065D1ED5380B1AD53648AFE2A412 /* JVTableViewCellLayoutCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTableViewCellLayoutCreator.modulemap; sourceTree = "<group>"; };
-		F553D2D399DA4B58C72110F78DE50419 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
-		F60AB37FAF542BF5DE9F0B033D92D431 /* JVTableViewCellLayoutCreator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTableViewCellLayoutCreator-Info.plist"; sourceTree = "<group>"; };
-		F9993C73560F7C5A7A722288399FB5A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F9F5A60FAAEC7DE0BF237BAF2294797E /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
+		E96C89A25C3B4F2F1F984CE4A11120C9 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		EAF4239B6BA087F376120D80B33C4F55 /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		F53F46A0629E07875C3DDA307ACB8295 /* TableViewCellInnerContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellInnerContentView.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellInnerContentView.swift; sourceTree = "<group>"; };
+		FEEC9B2801C270664D9DFC7A7EB1ECB2 /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		350FB1A2364265D96A24D4CFD0186032 /* Frameworks */ = {
+		05DF96D762DCC74B6DE3905D08482BA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA1F5B5017FC819AD24A9317AFD4086 /* Foundation.framework in Frameworks */,
+				ECB152D76A89D392B552FD317ADA44D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36F169B343BF3621A16674DD9AC2B3CE /* Frameworks */ = {
+		3F87F2A3AAFAD62FC503AA521FB2E5E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E86D4007FF32BD7C2AFD441A79D4DA /* Foundation.framework in Frameworks */,
+				D8CDBE215AB364E3A22265772F4D5101 /* Foundation.framework in Frameworks */,
+				7A9A2985BF288302AF118E914BAF6222 /* JVConstraintEdges.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DA952FA386369E643E2D6DBF1CF4095 /* Frameworks */ = {
+		4D3EBE297A2BF2FE4C279A1B011D92EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				974AB9B20905641B2995ABC0FA568CA7 /* Foundation.framework in Frameworks */,
-				B5C6502AF88176E692361DB227809E15 /* JVContentType.framework in Frameworks */,
-				6C0C1839193CD34BE365AF566F70D189 /* JVSizeable.framework in Frameworks */,
+				4DAB8B3444AA1E00E0E7E7C1E1E062BF /* Foundation.framework in Frameworks */,
+				E1BB636D9D27984BBDFCA92F1BB3AFBF /* JVContentType.framework in Frameworks */,
+				7B221F8818DEACD7CDF0B90DEF96C015 /* JVSizeable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,30 +198,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1811EA51D2D17E9F5D8321AEFB997FF /* Frameworks */ = {
+		F553CB2EEF562A63B2D55AD152AD98DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5320AB9861AE1CC0FB5BD07FA0F7ADF9 /* Foundation.framework in Frameworks */,
-				4C15401A232850C17DA128335E5CCAFA /* JVConstraintEdges.framework in Frameworks */,
+				85EA04BAA77C7690EF837CE04F364755 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		000EB58AEEF2EB79CC88E7CDE023628A /* Support Files */ = {
+		0DBB7A094523574769A68676BAB17F21 /* JVContentType */ = {
 			isa = PBXGroup;
 			children = (
-				E6124358BC1244692E009D11DE33961B /* JVConstraintEdges.modulemap */,
-				D1555A7290180376E2716AF1F5B88A9F /* JVConstraintEdges.xcconfig */,
-				847467A63809D784BD64532CD8D37EF5 /* JVConstraintEdges-dummy.m */,
-				A2BFEE1ABA5D6A566EF7F8574B14D704 /* JVConstraintEdges-Info.plist */,
-				F9F5A60FAAEC7DE0BF237BAF2294797E /* JVConstraintEdges-prefix.pch */,
-				03FC7695EB7AB4F75F6875DB5448B787 /* JVConstraintEdges-umbrella.h */,
+				7A06028BECFCEFAB35CC7C99A6D70A65 /* CollectionExtensions.swift */,
+				E96C89A25C3B4F2F1F984CE4A11120C9 /* ContentType.swift */,
+				EAF4239B6BA087F376120D80B33C4F55 /* ContentTypeGroup.swift */,
+				A913F1ADF21D6EEBABCBEF43C54D97F0 /* ContentTypeGroupInitializable.swift */,
+				148B14D64D5368B8DD996A441CDF0DDB /* ContentTypeInitializable.swift */,
+				5F11682BB1A0E926AF8290DB8C22B616 /* Copyable.swift */,
+				DB9F57A4BFF744F7246E63FBC8B5F127 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JVConstraintEdges";
+			name = JVContentType;
+			path = JVContentType;
 			sourceTree = "<group>";
 		};
 		160DE8473CA2EB399BC0B3BAB276E969 /* Products */ = {
@@ -241,52 +244,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3763640C6CD9FC5E4F9219080102A22E /* Development Pods */ = {
+		1EF846F7BE336916BF7786FCC10523CA /* JVConstraintEdges */ = {
 			isa = PBXGroup;
 			children = (
-				38FD33701C7F278FA66ADA7374A56E77 /* JVTableViewCellLayoutCreator */,
+				DFC4925EBD22CEC46FE140A72D81A663 /* Anchor.swift */,
+				8F22E7769262309916ED213C7DCB6A52 /* CGFloatExtensions.swift */,
+				80F391249782AE2B34EF516ACE88FAA5 /* ConstraintAnchor.swift */,
+				2BC71338EB976DE7D007398EC68F92B8 /* ConstraintEdges.swift */,
+				88095D655EC9B28C005CEAB1ED2E705B /* ContentTypeConstraintEdges.swift */,
+				1236C23F367A2B9A1F337D04FB79E2B2 /* ModelCreator.swift */,
+				AA62471EB9FDEF9107ED7C8091B654CF /* StringExtensions.swift */,
+				008FEDE8344867EA9E53789C927D561D /* UIViewFillExtension.swift */,
+				FEE2CCBC460E8E65AE43834ACC9B66F4 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = JVConstraintEdges;
+			path = JVConstraintEdges;
 			sourceTree = "<group>";
 		};
-		38FD33701C7F278FA66ADA7374A56E77 /* JVTableViewCellLayoutCreator */ = {
+		23C0BC4E5C8739F0690494F2AD1FF3F4 /* JVTableViewCellLayoutCreator */ = {
 			isa = PBXGroup;
 			children = (
-				32D004834252D7F7E347EC63D3C7A766 /* TableViewCellLayoutCreator.swift */,
-				D26268516A94941A71B26CA825B87302 /* Pod */,
-				8DEC2FBDF945AB3E708568FDEA0E18DB /* Support Files */,
-				69111BE72222E574005F3122 /* TableViewCellInnerContentView.swift */,
+				F53F46A0629E07875C3DDA307ACB8295 /* TableViewCellInnerContentView.swift */,
+				3BCC8CD1691A3C2EBE51FE72AB925ED8 /* TableViewCellLayoutCreator.swift */,
+				7BA9D9FC0961807BB5822CF4D92D788D /* Pod */,
+				AB0C8F83D76BA3C3F3B2BF0539B11E4A /* Support Files */,
 			);
 			name = JVTableViewCellLayoutCreator;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3B95A134CEF04950116D2A16EBA2C840 /* JVContentType */ = {
+		25F9CBE652A5954D533CEA4540C30728 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0BF9BB12B0D0E333E6E3312E340AEB1F /* CollectionExtensions.swift */,
-				71FCFCDA6E1A40390CC321F628B4E7FC /* ContentType.swift */,
-				B394F85958E3C1F80D9ED0666D5F4458 /* ContentTypeGroup.swift */,
-				2DAFFB81FA08BD1FECC90622C8ABB50B /* ContentTypeGroupInitializable.swift */,
-				CDAC235421F80BC79A99804B275B52A6 /* ContentTypeInitializable.swift */,
-				0DB1385360FC1FEA67A0DDF1432CDCE1 /* Copyable.swift */,
-				473EACF95232C619AF22665BC182409A /* Support Files */,
+				23C0BC4E5C8739F0690494F2AD1FF3F4 /* JVTableViewCellLayoutCreator */,
 			);
-			path = JVContentType;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		473EACF95232C619AF22665BC182409A /* Support Files */ = {
+		68D75A7BE870FD8005079CCA09C11B95 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F6E20963997AF7BDBA7A5096FAFE139 /* JVContentType.modulemap */,
-				4DFB6A8A3B434A406A380A150E3AC428 /* JVContentType.xcconfig */,
-				A0391B75827AFBC3F3F4B99F045B1CE3 /* JVContentType-dummy.m */,
-				259FD627789D75501F8E60B294D2E31A /* JVContentType-Info.plist */,
-				8AFE88D3E65FE64A937348FCF9E3584C /* JVContentType-prefix.pch */,
-				F553D2D399DA4B58C72110F78DE50419 /* JVContentType-umbrella.h */,
+				FEEC9B2801C270664D9DFC7A7EB1ECB2 /* JVSizeable.modulemap */,
+				CD2105F818738ACA1C4B43FD582868A7 /* JVSizeable.xcconfig */,
+				B7959C24DBAF56DCF4C42E82DFF142C8 /* JVSizeable-dummy.m */,
+				0CF6B90DFD7416359C53B06AE4FD6FE9 /* JVSizeable-Info.plist */,
+				427434807D1C68479F9597A1FD56DF4C /* JVSizeable-prefix.pch */,
+				BBE165104A241C5B2D2552CF473BBA47 /* JVSizeable-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JVContentType";
+			path = "../Target Support Files/JVSizeable";
+			sourceTree = "<group>";
+		};
+		7BA9D9FC0961807BB5822CF4D92D788D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65EA4C001C5335A90EE5958A09A3E086 /* JVTableViewCellLayoutCreator.podspec */,
+				CAC12B480177D01FEBAF6A791408798C /* LICENSE */,
+				0D43883492290EE957F25D7ABD51044C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		897A6DC2FD2AC0B80A40B0B9B94E1792 /* Targets Support Files */ = {
@@ -314,66 +330,28 @@
 			path = "Target Support Files/Pods-JVTableViewCellLayoutCreator_Tests";
 			sourceTree = "<group>";
 		};
-		8DEC2FBDF945AB3E708568FDEA0E18DB /* Support Files */ = {
+		9EB0074B6ED8B184A86CC6CEF049E9AB /* JVSizeable */ = {
 			isa = PBXGroup;
 			children = (
-				EEC7065D1ED5380B1AD53648AFE2A412 /* JVTableViewCellLayoutCreator.modulemap */,
-				5B94B7973835A8B426E02BBC58387A6B /* JVTableViewCellLayoutCreator.xcconfig */,
-				130C3A442A5A39308EDF4841399396C2 /* JVTableViewCellLayoutCreator-dummy.m */,
-				F60AB37FAF542BF5DE9F0B033D92D431 /* JVTableViewCellLayoutCreator-Info.plist */,
-				922DF22A708D4EDF7842D55BD518C06E /* JVTableViewCellLayoutCreator-prefix.pch */,
-				ADB033D67E8777D3073790C9063C1A8A /* JVTableViewCellLayoutCreator-umbrella.h */,
+				B9C4DD287A2FF6B06C7374674F422721 /* Sizeable.swift */,
+				68D75A7BE870FD8005079CCA09C11B95 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JVTableViewCellLayoutCreator";
-			sourceTree = "<group>";
-		};
-		8E9902FF3E57699463D67122C02B7952 /* JVSizeable */ = {
-			isa = PBXGroup;
-			children = (
-				42D30337D58EF5E6508371F8678E307D /* Sizeable.swift */,
-				C6B497449833AAB4D0640857954BB208 /* Support Files */,
-			);
+			name = JVSizeable;
 			path = JVSizeable;
 			sourceTree = "<group>";
 		};
-		97F820DEAD634C695E399C5B57304FAF /* JVConstraintEdges */ = {
+		AB0C8F83D76BA3C3F3B2BF0539B11E4A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55A6988DFF5DC221BDB6145F34267995 /* Anchor.swift */,
-				790760DEE0913376032FFF9999BF0F35 /* CGFloatExtensions.swift */,
-				C763C6A83C5EBC087F25AD1459D696B4 /* ConstraintEdges.swift */,
-				5773C9BC96FA8637B9BE022A449F578D /* ContentTypeConstraintEdges.swift */,
-				58EAD59283205225E87D09762491CF15 /* ModelCreator.swift */,
-				B5B854750AD4F5D409AC39C3905E94C6 /* StringExtensions.swift */,
-				7E5EA24B1F43B7BDC047A8BF7DC88FE7 /* UIViewFillExtension.swift */,
-				000EB58AEEF2EB79CC88E7CDE023628A /* Support Files */,
-			);
-			path = JVConstraintEdges;
-			sourceTree = "<group>";
-		};
-		A259AC084974DA55608FA6D43AFE9BE8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97F820DEAD634C695E399C5B57304FAF /* JVConstraintEdges */,
-				3B95A134CEF04950116D2A16EBA2C840 /* JVContentType */,
-				8E9902FF3E57699463D67122C02B7952 /* JVSizeable */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C6B497449833AAB4D0640857954BB208 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9F3B1D85D6ECE438D4F165D13ED529B /* JVSizeable.modulemap */,
-				A1D87D6879E4F0F25EE5BCB494749EF8 /* JVSizeable.xcconfig */,
-				A2964B2F2BB11D4BA5DF3B2CCB1DA2DB /* JVSizeable-dummy.m */,
-				7E128FE450430436B7201D20B720C324 /* JVSizeable-Info.plist */,
-				EA9FAAD30240FC130869BE6A0EA97655 /* JVSizeable-prefix.pch */,
-				4B7748026DD28535A8297D81EFAD0495 /* JVSizeable-umbrella.h */,
+				CB545C5237A7D0F3767682432E91456A /* JVTableViewCellLayoutCreator.modulemap */,
+				47BC2548526C151BC4E8573DF4A15872 /* JVTableViewCellLayoutCreator.xcconfig */,
+				D9FF9ADF2AD3A5C8775CDB6A512450E8 /* JVTableViewCellLayoutCreator-dummy.m */,
+				C892F63DCEF1B18E74DE733638885D4A /* JVTableViewCellLayoutCreator-Info.plist */,
+				800CF3BB326B50C56188B820113D9651 /* JVTableViewCellLayoutCreator-prefix.pch */,
+				C125A1DDC35AE02664A3C46E69A307D1 /* JVTableViewCellLayoutCreator-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JVSizeable";
+			path = "Example/Pods/Target Support Files/JVTableViewCellLayoutCreator";
 			sourceTree = "<group>";
 		};
 		CBD8FDC4EEA21069EEF98ED2100C04E4 /* Frameworks */ = {
@@ -391,32 +369,76 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3763640C6CD9FC5E4F9219080102A22E /* Development Pods */,
+				25F9CBE652A5954D533CEA4540C30728 /* Development Pods */,
 				CBD8FDC4EEA21069EEF98ED2100C04E4 /* Frameworks */,
-				A259AC084974DA55608FA6D43AFE9BE8 /* Pods */,
+				E65A34D7BA92B91D20EDC4E1AFFA49FB /* Pods */,
 				160DE8473CA2EB399BC0B3BAB276E969 /* Products */,
 				897A6DC2FD2AC0B80A40B0B9B94E1792 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D26268516A94941A71B26CA825B87302 /* Pod */ = {
+		DB9F57A4BFF744F7246E63FBC8B5F127 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D8FEDAC5FE5AD576E90D52CB01C4AF3 /* JVTableViewCellLayoutCreator.podspec */,
-				87C622A3D500B2FB858BEAB4E8B6B9BB /* LICENSE */,
-				F9993C73560F7C5A7A722288399FB5A6 /* README.md */,
+				BFD5EC1AD2BDFF33F0ECCFC8AC728BBF /* JVContentType.modulemap */,
+				72649C744E72CE300EB57FB5D6DB74B3 /* JVContentType.xcconfig */,
+				D8E535B62DA846741E93DF44804CCB2A /* JVContentType-dummy.m */,
+				AC71762C970CACEA2046DB1DABC9805D /* JVContentType-Info.plist */,
+				C9E230E80867D671D5F4E0B901557A12 /* JVContentType-prefix.pch */,
+				CB3228942605149410F98459E49502B5 /* JVContentType-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/JVContentType";
+			sourceTree = "<group>";
+		};
+		E65A34D7BA92B91D20EDC4E1AFFA49FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF846F7BE336916BF7786FCC10523CA /* JVConstraintEdges */,
+				0DBB7A094523574769A68676BAB17F21 /* JVContentType */,
+				9EB0074B6ED8B184A86CC6CEF049E9AB /* JVSizeable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEE2CCBC460E8E65AE43834ACC9B66F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8563433C707D0397E2F4B35ADE527B24 /* JVConstraintEdges.modulemap */,
+				0A85709B25F9C63D4F1A5E227E6CFE28 /* JVConstraintEdges.xcconfig */,
+				858CAD2123FD87912BD5657AA154E45E /* JVConstraintEdges-dummy.m */,
+				2A2CC8962E29657E0284E55017CAEE52 /* JVConstraintEdges-Info.plist */,
+				050EB1536466ADEE77AD72363CEDC043 /* JVConstraintEdges-prefix.pch */,
+				96061C4EB2B736333362426E8FE799A5 /* JVConstraintEdges-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVConstraintEdges";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		371470B4558ABD8535E45F6AAA96EADB /* Headers */ = {
+		04F8CF58FBAFB8AAFCDA822AC18B4D56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A78A2A538E939246AAA118BE81F9FD0 /* JVSizeable-umbrella.h in Headers */,
+				85A820998A2B6064E6F4C8CDF36280BB /* JVSizeable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107DA38817AB5CF022F10F673E8526BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25DA0A7A634F36CE5B4FD8949AA8772 /* JVConstraintEdges-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7996C0294BE6B6498BDE40FA865B03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8988E3D196DF592D182DF645185D6E /* JVTableViewCellLayoutCreator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,27 +450,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3D8EBFE836DF1D769C63B3B34E46547 /* Headers */ = {
+		ABDC87BE32840BB0B86EE785C9D0B266 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3D0A8A47845475D7100DA531CC6500 /* JVConstraintEdges-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA53CCD5821EFE8968BDB98CD9C13616 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90D5B2128533B38A014FCF583DCDD96 /* JVContentType-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E5035A301DA76ED232009440BA9377 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CA98851A6D53C86DA0E531E456347A2 /* JVTableViewCellLayoutCreator-umbrella.h in Headers */,
+				AEE3FB46F1AD996E487A95661C828E6E /* JVContentType-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,34 +483,34 @@
 			productReference = 58D7424995CCBB0C50574F6836A8E126 /* Pods_JVTableViewCellLayoutCreator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0561B4A554A3FD7E1538D1A0116E67FD /* JVConstraintEdges */ = {
+		60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21D8DD0B0797027CABB6B1B1D71CAF18 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */;
+			buildConfigurationList = FD676A4C2416FE38E5807E46E4C99EB7 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */;
 			buildPhases = (
-				B3D8EBFE836DF1D769C63B3B34E46547 /* Headers */,
-				B464D1D9064CBF695A2EF3107F13B11A /* Sources */,
-				7DA952FA386369E643E2D6DBF1CF4095 /* Frameworks */,
-				6CB9180D802CF375837EC3D9C909B72A /* Resources */,
+				107DA38817AB5CF022F10F673E8526BF /* Headers */,
+				F4182A08061C24DCE30B210C6E6E78D5 /* Sources */,
+				4D3EBE297A2BF2FE4C279A1B011D92EF /* Frameworks */,
+				972328A51E3E57215678AEB13B0D18AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF4769EB63CF7E018FAD6AB9C7567B62 /* PBXTargetDependency */,
-				3D0140AA16330C53EA6F1CBA5611B482 /* PBXTargetDependency */,
+				D37FFDA0E380BE72E1805A926784D871 /* PBXTargetDependency */,
+				83D6E75221A473EBD9AAF92BFD0FBE32 /* PBXTargetDependency */,
 			);
 			name = JVConstraintEdges;
 			productName = JVConstraintEdges;
 			productReference = 377813DB33BFEF8B5BA812AF8B2B36F3 /* JVConstraintEdges.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1DEC7A5A11413A75DC99437EB04528D2 /* JVSizeable */ = {
+		8F31B948899BCA67DD2078010378AFBC /* JVSizeable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A73BA557E923D3948360905EBE5B0DC7 /* Build configuration list for PBXNativeTarget "JVSizeable" */;
+			buildConfigurationList = 044C20040C7E6AFEE68F0FCB9BDDB090 /* Build configuration list for PBXNativeTarget "JVSizeable" */;
 			buildPhases = (
-				371470B4558ABD8535E45F6AAA96EADB /* Headers */,
-				9EAABD47CC4051F68152C89F9E8216E4 /* Sources */,
-				350FB1A2364265D96A24D4CFD0186032 /* Frameworks */,
-				45F7F041D9E3786D00C998C28C942310 /* Resources */,
+				04F8CF58FBAFB8AAFCDA822AC18B4D56 /* Headers */,
+				E498D3F3609ADE839883CBE15C9FF42F /* Sources */,
+				F553CB2EEF562A63B2D55AD152AD98DB /* Frameworks */,
+				4D8D44FE753FB972875A33F1F07F8005 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -515,33 +521,14 @@
 			productReference = 5D1232F34B9C38A20ED96C1E19889DBC /* JVSizeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		379889D67B2FB3B14FFC7C1E750A1EFC /* JVTableViewCellLayoutCreator */ = {
+		9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 857844F0C28BAD5DD9870F5E2E1AA198 /* Build configuration list for PBXNativeTarget "JVTableViewCellLayoutCreator" */;
+			buildConfigurationList = 2DC5F8DDDD21FA8D4F793174E270952E /* Build configuration list for PBXNativeTarget "JVContentType" */;
 			buildPhases = (
-				F8E5035A301DA76ED232009440BA9377 /* Headers */,
-				DCB28377E2C433703FD941F0FDCD1CBC /* Sources */,
-				E1811EA51D2D17E9F5D8321AEFB997FF /* Frameworks */,
-				B2AE7D93404A9BEE451C2D4B01E40D2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B8509D6502D5D539981B71EB5FBD2D5 /* PBXTargetDependency */,
-			);
-			name = JVTableViewCellLayoutCreator;
-			productName = JVTableViewCellLayoutCreator;
-			productReference = 5B3753D8FB0423C091A7ED72CF7B5346 /* JVTableViewCellLayoutCreator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE89CC8BCF70FDA2DC587C011C7BCE02 /* JVContentType */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27580EEB86C959D7DCEF47C73C46EA77 /* Build configuration list for PBXNativeTarget "JVContentType" */;
-			buildPhases = (
-				DA53CCD5821EFE8968BDB98CD9C13616 /* Headers */,
-				2626AD5074683ED294F8B4891A82993D /* Sources */,
-				36F169B343BF3621A16674DD9AC2B3CE /* Frameworks */,
-				C2D53BCCD60B31C72D5FDB4A38E0157B /* Resources */,
+				ABDC87BE32840BB0B86EE785C9D0B266 /* Headers */,
+				495B2FD6198910A213B6E5D4D3DA0EBA /* Sources */,
+				05DF96D762DCC74B6DE3905D08482BA5 /* Frameworks */,
+				D79AF3217020B8F23D33753B86111DC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -550,6 +537,25 @@
 			name = JVContentType;
 			productName = JVContentType;
 			productReference = 9F510724EDC4DD7289637266466BF58A /* JVContentType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1CA02FEF11F342A94BDE49CF7A65F9E /* JVTableViewCellLayoutCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93526415475549A5FFF660A9E672BB03 /* Build configuration list for PBXNativeTarget "JVTableViewCellLayoutCreator" */;
+			buildPhases = (
+				4A7996C0294BE6B6498BDE40FA865B03 /* Headers */,
+				CF613CA2B2576C9F0455843A8B0950A7 /* Sources */,
+				3F87F2A3AAFAD62FC503AA521FB2E5E0 /* Frameworks */,
+				358144D0C46497EC3232B6D0549AE829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B843E469FC12CA39FF66D7CF7955D6 /* PBXTargetDependency */,
+			);
+			name = JVTableViewCellLayoutCreator;
+			productName = JVTableViewCellLayoutCreator;
+			productReference = 5B3753D8FB0423C091A7ED72CF7B5346 /* JVTableViewCellLayoutCreator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -573,10 +579,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0561B4A554A3FD7E1538D1A0116E67FD /* JVConstraintEdges */,
-				DE89CC8BCF70FDA2DC587C011C7BCE02 /* JVContentType */,
-				1DEC7A5A11413A75DC99437EB04528D2 /* JVSizeable */,
-				379889D67B2FB3B14FFC7C1E750A1EFC /* JVTableViewCellLayoutCreator */,
+				60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */,
+				9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */,
+				8F31B948899BCA67DD2078010378AFBC /* JVSizeable */,
+				C1CA02FEF11F342A94BDE49CF7A65F9E /* JVTableViewCellLayoutCreator */,
 				04D2A91E2FA263A3DE7056AA78FECA94 /* Pods-JVTableViewCellLayoutCreator_Tests */,
 			);
 		};
@@ -590,28 +596,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F7F041D9E3786D00C998C28C942310 /* Resources */ = {
+		358144D0C46497EC3232B6D0549AE829 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CB9180D802CF375837EC3D9C909B72A /* Resources */ = {
+		4D8D44FE753FB972875A33F1F07F8005 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2AE7D93404A9BEE451C2D4B01E40D2A /* Resources */ = {
+		972328A51E3E57215678AEB13B0D18AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2D53BCCD60B31C72D5FDB4A38E0157B /* Resources */ = {
+		D79AF3217020B8F23D33753B86111DC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -621,17 +627,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2626AD5074683ED294F8B4891A82993D /* Sources */ = {
+		495B2FD6198910A213B6E5D4D3DA0EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7898A5D079F39FA76DE94DB0379FFC5F /* CollectionExtensions.swift in Sources */,
-				64DC3700ADA94A8870B32A902B9DA285 /* ContentType.swift in Sources */,
-				A8D06B4C378999E08F6DF45D17F013FE /* ContentTypeGroup.swift in Sources */,
-				CF9EF779BED3FF44FE6AED76995EF4BC /* ContentTypeGroupInitializable.swift in Sources */,
-				BC0B096048660763A697B5DCA5494A87 /* ContentTypeInitializable.swift in Sources */,
-				292B81326C66EFE8EE92C8404984C830 /* Copyable.swift in Sources */,
-				F5646A2565E09E0B25FFB3D7D6F508A2 /* JVContentType-dummy.m in Sources */,
+				69ACE2A6E947D073ACCBE28219A8AEA8 /* CollectionExtensions.swift in Sources */,
+				027BE10545A4671C90DAFFF263FC7455 /* ContentType.swift in Sources */,
+				E19C377654508E0C02BAB36809624BF7 /* ContentTypeGroup.swift in Sources */,
+				D5AC900D034ACA7E047AC20631790941 /* ContentTypeGroupInitializable.swift in Sources */,
+				4DA2F76205DA439FB77C9CC41B5890D3 /* ContentTypeInitializable.swift in Sources */,
+				7F6A9070E067399AFA7C582C0E854E03 /* Copyable.swift in Sources */,
+				E2FF61972AA6C5C8D4127C48572CF880 /* JVContentType-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,91 +649,126 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EAABD47CC4051F68152C89F9E8216E4 /* Sources */ = {
+		CF613CA2B2576C9F0455843A8B0950A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A737D476A635377BB6F18B50BB5798 /* JVSizeable-dummy.m in Sources */,
-				EA721B6B962AFE1E1A2E7C277EB24C9D /* Sizeable.swift in Sources */,
+				E2CB5D368E576DBF85A21BC3F383426F /* JVTableViewCellLayoutCreator-dummy.m in Sources */,
+				9BB5D0627296A53D1678247749D58D8C /* TableViewCellInnerContentView.swift in Sources */,
+				E74BAFB34796607A87A3467F0AC395D3 /* TableViewCellLayoutCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B464D1D9064CBF695A2EF3107F13B11A /* Sources */ = {
+		E498D3F3609ADE839883CBE15C9FF42F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BC2F5CBE925C4642012C37CF6A09CD /* Anchor.swift in Sources */,
-				848C874B34B53D6FC6E056576601CEB7 /* CGFloatExtensions.swift in Sources */,
-				81AC8249A40B9F2D621FF3ED44B8A47E /* ConstraintEdges.swift in Sources */,
-				6639A37CA026238C2FCDEC9AA46FB1E2 /* ContentTypeConstraintEdges.swift in Sources */,
-				D08C38BA45B80D56DB5096F51F9F8535 /* JVConstraintEdges-dummy.m in Sources */,
-				EB78AF77C87A2BC69B0D0026F6CA05F7 /* ModelCreator.swift in Sources */,
-				A63DF6640F11D29278015569D32930A8 /* StringExtensions.swift in Sources */,
-				5EE89AA76BEDE57C6C20F2EC19ACD7AB /* UIViewFillExtension.swift in Sources */,
+				3D439A8C46DDE2732A11D879FA903DA6 /* JVSizeable-dummy.m in Sources */,
+				81294113734E14488FCE6FC410E97061 /* Sizeable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB28377E2C433703FD941F0FDCD1CBC /* Sources */ = {
+		F4182A08061C24DCE30B210C6E6E78D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59AC9C192A4842BFF87B797E3DDCB4F0 /* JVTableViewCellLayoutCreator-dummy.m in Sources */,
-				69111BE82222E574005F3122 /* TableViewCellInnerContentView.swift in Sources */,
-				83046384C1CD94E90484050357525371 /* TableViewCellLayoutCreator.swift in Sources */,
+				D4DB6F347E2C955E2DB08012357B0D80 /* Anchor.swift in Sources */,
+				DD532B48D78D1672D5448227A2267A82 /* CGFloatExtensions.swift in Sources */,
+				DBD2D4867E9ABB27D7C93BFD4DC3D5CE /* ConstraintAnchor.swift in Sources */,
+				FCD9C4ED71A819A9C8A64638B586CE0B /* ConstraintEdges.swift in Sources */,
+				93D7D080C626879136810F4936A7580F /* ContentTypeConstraintEdges.swift in Sources */,
+				9926387B233EF0E8C096F61803516430 /* JVConstraintEdges-dummy.m in Sources */,
+				B037D7DA2E2FF4AD8404618A29EFDF1A /* ModelCreator.swift in Sources */,
+				2BE982BC7FA5555BAC9020AEDDD3F288 /* StringExtensions.swift in Sources */,
+				C69247FB7A86D52BBBABFD05AFE27DF8 /* UIViewFillExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D0140AA16330C53EA6F1CBA5611B482 /* PBXTargetDependency */ = {
+		83D6E75221A473EBD9AAF92BFD0FBE32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVSizeable;
-			target = 1DEC7A5A11413A75DC99437EB04528D2 /* JVSizeable */;
-			targetProxy = 51F8EBA1D18AD890CF56EED4723144F6 /* PBXContainerItemProxy */;
-		};
-		7B8509D6502D5D539981B71EB5FBD2D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVConstraintEdges;
-			target = 0561B4A554A3FD7E1538D1A0116E67FD /* JVConstraintEdges */;
-			targetProxy = E7D47DAAE63C8BE1F138D5DFFB0454CD /* PBXContainerItemProxy */;
+			target = 8F31B948899BCA67DD2078010378AFBC /* JVSizeable */;
+			targetProxy = 4831C5B7F952B922CEC7472141A2C1CD /* PBXContainerItemProxy */;
 		};
 		8B68E69765FD23BAF8C07BCC53CEC0E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVTableViewCellLayoutCreator;
-			target = 379889D67B2FB3B14FFC7C1E750A1EFC /* JVTableViewCellLayoutCreator */;
+			target = C1CA02FEF11F342A94BDE49CF7A65F9E /* JVTableViewCellLayoutCreator */;
 			targetProxy = A3F53A7407F4B2CF1FFA3452C8783ECA /* PBXContainerItemProxy */;
 		};
 		9E42445B100986D5F8FE61455203789B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVConstraintEdges;
-			target = 0561B4A554A3FD7E1538D1A0116E67FD /* JVConstraintEdges */;
+			target = 60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */;
 			targetProxy = A8B941B8F3155F6F7BC2E40365D08D48 /* PBXContainerItemProxy */;
 		};
-		DF4769EB63CF7E018FAD6AB9C7567B62 /* PBXTargetDependency */ = {
+		B4B843E469FC12CA39FF66D7CF7955D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVConstraintEdges;
+			target = 60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */;
+			targetProxy = 6A0BD1BEB73AC4DAC3388937221B149B /* PBXContainerItemProxy */;
+		};
+		D37FFDA0E380BE72E1805A926784D871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVContentType;
-			target = DE89CC8BCF70FDA2DC587C011C7BCE02 /* JVContentType */;
-			targetProxy = 76CDF2FC744256AECDE6A4B72DD58C61 /* PBXContainerItemProxy */;
+			target = 9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */;
+			targetProxy = F051683948854CBBF3B2868935F14060 /* PBXContainerItemProxy */;
 		};
 		E95CB1A24007406239213CA890F2E9BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVSizeable;
-			target = 1DEC7A5A11413A75DC99437EB04528D2 /* JVSizeable */;
+			target = 8F31B948899BCA67DD2078010378AFBC /* JVSizeable */;
 			targetProxy = 5FAEB12F7E0910F4D1DB74EE1A6293A0 /* PBXContainerItemProxy */;
 		};
 		F12E38C36A9F2ED2DEACA43BADAE10CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVContentType;
-			target = DE89CC8BCF70FDA2DC587C011C7BCE02 /* JVContentType */;
+			target = 9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */;
 			targetProxy = 2DA195251C86BA0999ECFF3DC1E47103 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		27DCB3BC88B85C1D66E1DFC6C0E190EE /* Debug */ = {
+		0BCD4AD9665CADB37815936806606614 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D87D6879E4F0F25EE5BCB494749EF8 /* JVSizeable.xcconfig */;
+			baseConfigurationReference = 47BC2548526C151BC4E8573DF4A15872 /* JVTableViewCellLayoutCreator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator.modulemap";
+				PRODUCT_MODULE_NAME = JVTableViewCellLayoutCreator;
+				PRODUCT_NAME = JVTableViewCellLayoutCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		193A6B8F068B7076B4DA639353F4959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2105F818738ACA1C4B43FD582868A7 /* JVSizeable.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -753,14 +794,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3AA99C45AAD542EF4532ED3596CB0E2F /* Debug */ = {
+		2CEF0BEC5EC9929C1E06AA09CDDF2165 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1555A7290180376E2716AF1F5B88A9F /* JVConstraintEdges.xcconfig */;
+			baseConfigurationReference = 72649C744E72CE300EB57FB5D6DB74B3 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -773,14 +815,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
-				PRODUCT_MODULE_NAME = JVConstraintEdges;
-				PRODUCT_NAME = JVConstraintEdges;
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F2F9F2F3903FD4A11CE1C683D8FFA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2105F818738ACA1C4B43FD582868A7 /* JVSizeable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
+				PRODUCT_MODULE_NAME = JVSizeable;
+				PRODUCT_NAME = JVSizeable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -844,42 +919,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5849A0BF509BEF830782F3651B736180 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B94B7973835A8B426E02BBC58387A6B /* JVTableViewCellLayoutCreator.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator.modulemap";
-				PRODUCT_MODULE_NAME = JVTableViewCellLayoutCreator;
-				PRODUCT_NAME = JVTableViewCellLayoutCreator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -947,9 +990,9 @@
 			};
 			name = Debug;
 		};
-		97F2217C572313D0A9A427893E20DC8D /* Release */ = {
+		74CE1D76EBA592BF752567022215FE6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D87D6879E4F0F25EE5BCB494749EF8 /* JVSizeable.xcconfig */;
+			baseConfigurationReference = 0A85709B25F9C63D4F1A5E227E6CFE28 /* JVConstraintEdges.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -962,14 +1005,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
-				PRODUCT_MODULE_NAME = JVSizeable;
-				PRODUCT_NAME = JVSizeable;
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -981,9 +1024,42 @@
 			};
 			name = Release;
 		};
-		9CCCE965BEA441EB8AB85C802AA7A917 /* Release */ = {
+		7C45B95FA413D8B3AD7E0DE20A23D220 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DFB6A8A3B434A406A380A150E3AC428 /* JVContentType.xcconfig */;
+			baseConfigurationReference = 0A85709B25F9C63D4F1A5E227E6CFE28 /* JVConstraintEdges.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9576AA9F31FC663A2EB44928696A594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72649C744E72CE300EB57FB5D6DB74B3 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1015,11 +1091,12 @@
 			};
 			name = Release;
 		};
-		B10502FF8C027BF8ED7319D91481A335 /* Debug */ = {
+		CBEE51AD28C92B812CB70BD0E268C387 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B94B7973835A8B426E02BBC58387A6B /* JVTableViewCellLayoutCreator.xcconfig */;
+			baseConfigurationReference = 47BC2548526C151BC4E8573DF4A15872 /* JVTableViewCellLayoutCreator.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1046,40 +1123,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C374CB822EE650974B948F90E42EEDDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1555A7290180376E2716AF1F5B88A9F /* JVConstraintEdges.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
-				PRODUCT_MODULE_NAME = JVConstraintEdges;
-				PRODUCT_NAME = JVConstraintEdges;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D4C0633197B179FFF2E1C77C836470F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1116,39 +1159,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		E9BC252F6BB654C90BF355B0AB2EED72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DFB6A8A3B434A406A380A150E3AC428 /* JVContentType.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
-				PRODUCT_MODULE_NAME = JVContentType;
-				PRODUCT_NAME = JVContentType;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		EC3BE5327EAEB124288D6AD529B55D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1188,20 +1198,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21D8DD0B0797027CABB6B1B1D71CAF18 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */ = {
+		044C20040C7E6AFEE68F0FCB9BDDB090 /* Build configuration list for PBXNativeTarget "JVSizeable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AA99C45AAD542EF4532ED3596CB0E2F /* Debug */,
-				C374CB822EE650974B948F90E42EEDDF /* Release */,
+				2F2F9F2F3903FD4A11CE1C683D8FFA7A /* Debug */,
+				193A6B8F068B7076B4DA639353F4959D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27580EEB86C959D7DCEF47C73C46EA77 /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
+		2DC5F8DDDD21FA8D4F793174E270952E /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9BC252F6BB654C90BF355B0AB2EED72 /* Debug */,
-				9CCCE965BEA441EB8AB85C802AA7A917 /* Release */,
+				2CEF0BEC5EC9929C1E06AA09CDDF2165 /* Debug */,
+				9576AA9F31FC663A2EB44928696A594A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1224,20 +1234,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		857844F0C28BAD5DD9870F5E2E1AA198 /* Build configuration list for PBXNativeTarget "JVTableViewCellLayoutCreator" */ = {
+		93526415475549A5FFF660A9E672BB03 /* Build configuration list for PBXNativeTarget "JVTableViewCellLayoutCreator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B10502FF8C027BF8ED7319D91481A335 /* Debug */,
-				5849A0BF509BEF830782F3651B736180 /* Release */,
+				CBEE51AD28C92B812CB70BD0E268C387 /* Debug */,
+				0BCD4AD9665CADB37815936806606614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A73BA557E923D3948360905EBE5B0DC7 /* Build configuration list for PBXNativeTarget "JVSizeable" */ = {
+		FD676A4C2416FE38E5807E46E4C99EB7 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27DCB3BC88B85C1D66E1DFC6C0E190EE /* Debug */,
-				97F2217C572313D0A9A427893E20DC8D /* Release */,
+				7C45B95FA413D8B3AD7E0DE20A23D220 /* Debug */,
+				74CE1D76EBA592BF752567022215FE6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
