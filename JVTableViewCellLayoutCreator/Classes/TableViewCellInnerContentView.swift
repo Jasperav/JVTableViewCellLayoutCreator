@@ -2,8 +2,10 @@ import JVConstraintEdges
 
 open class TableViewCellInnerContentView: UITableViewCell {
     
+    private static let defaultEdges = ConstraintEdges(height: 5, width: 5)
+    
     open class var edges: ConstraintEdges {
-        fatalError()
+        return defaultEdges
     }
     
     public let innerContentView = UIView()
