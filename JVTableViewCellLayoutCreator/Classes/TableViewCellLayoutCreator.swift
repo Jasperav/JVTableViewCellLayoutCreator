@@ -80,10 +80,14 @@ public class TableViewCellLayoutCreator {
     
     private func fillTrailingView() {
         trailingView!.fill(toSuperview: toCell.innerContentView, edges: edgesTrailingView)
+        
+        trailingView!.setContentHugging(999)
     }
     
     private func fillLeadingView() {
         leadingView!.fill(toSuperview: toCell.innerContentView, edges: edgesLeadingView)
+        
+        leadingView!.setContentHugging(999)
     }
     
     private func fillMiddleView(edges: ConstraintEdges) {
