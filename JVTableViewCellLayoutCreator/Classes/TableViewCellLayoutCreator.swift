@@ -20,8 +20,8 @@ public class TableViewCellLayoutCreator {
         self.trailingView = trailingView
     }
     
-    public static func create(middleView: UIView,
-                              toCell: TableViewCellInnerContentView,
+    public static func create(toCell: TableViewCellInnerContentView,
+                              middleView: UIView,
                               leadingView: UIView? = nil,
                               trailingView: UIView? = nil) {
         let layoutCreator = TableViewCellLayoutCreator(middleView: middleView, toCell: toCell, leadingView: leadingView, trailingView: trailingView)
