@@ -1,10 +1,10 @@
 PODS:
-  - JVConstraintEdges (0.3.3):
+  - JVConstraintEdges (0.3.4):
     - JVContentType
     - JVDebugProcessorMacros
   - JVContentType (0.1.7)
   - JVDebugProcessorMacros (0.1.0)
-  - JVTableViewCellLayoutCreator (0.2.0):
+  - JVTableViewCellLayoutCreator (0.2.1):
     - JVConstraintEdges
 
 DEPENDENCIES:
@@ -21,10 +21,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVConstraintEdges: d8e930af6bdc8cf33a25c46bec3137de6328835f
+  JVConstraintEdges: ca1d9f78b37c6e36bddfa4c3f6f7b8a1a6d04d5f
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
   JVDebugProcessorMacros: 5df41f5660e5d5212c1d4c96fc0caa0800d77311
-  JVTableViewCellLayoutCreator: bce2aef6e1f373bccee9a43db22d6ecc09dee49a
+  JVTableViewCellLayoutCreator: fc4700e8fde91d161172d0decdc0bf007aa7ee46
 
 PODFILE CHECKSUM: 58618caf0795b17245618391f3a9425bd39ecc77
 

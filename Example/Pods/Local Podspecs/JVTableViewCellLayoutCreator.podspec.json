@@ -1,6 +1,6 @@
 {
   "name": "JVTableViewCellLayoutCreator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "A short description of JVTableViewCellLayoutCreator.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jasperav/JVTableViewCellLayoutCreator",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Jasperav/JVTableViewCellLayoutCreator.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "11.0"
