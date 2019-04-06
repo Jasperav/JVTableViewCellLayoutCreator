@@ -47,9 +47,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## JVSizeable
+## JVDebugProcessorMacros
 
-Copyright (c) 2018 Jasperav <Jasperav@hotmail.com>
+Copyright (c) 2019 Jasperav <Jasperav@hotmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
