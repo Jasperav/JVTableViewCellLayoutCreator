@@ -100,16 +100,16 @@
 /* Begin PBXFileReference section */
 		07A8A0716399268FD4F9CD20073FFC74 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		08D014744455B7CDCFBFF527AB601EDA /* Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTableViewCellLayoutCreator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D43883492290EE957F25D7ABD51044C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D43883492290EE957F25D7ABD51044C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FD0D055FBA32809B75164C0FBF6EF8A /* ContentHuggingCompressionResistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentHuggingCompressionResistance.swift; path = JVConstraintEdges/Classes/ContentHuggingCompressionResistance.swift; sourceTree = "<group>"; };
 		101C61A998ACF6E66D3732992235C731 /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		16CAD34BFAAB0B76E7B4B56214606E3F /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
 		16E1232F74E4232CE2BD577A3AB0636A /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
 		1B25340D007193DA24104C5C42C87D21 /* Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTableViewCellLayoutCreator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1B319ACF41417DC13B9F5910C6B11B8E /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B319ACF41417DC13B9F5910C6B11B8E /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF455D335C93AAE341878A966B97F72 /* JVDebugProcessorMacros-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVDebugProcessorMacros-dummy.m"; sourceTree = "<group>"; };
 		333D28A361D7AF81123CA56E750571B7 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
-		35006DE83EB5B24E40E7FA6AC565B0A0 /* JVDebugProcessorMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVDebugProcessorMacros.framework; path = JVDebugProcessorMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35006DE83EB5B24E40E7FA6AC565B0A0 /* JVDebugProcessorMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVDebugProcessorMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA484A9BE651620CAA5A4D3D3DD0F3D /* JVDebugProcessorMacros.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVDebugProcessorMacros.xcconfig; sourceTree = "<group>"; };
 		3BCC8CD1691A3C2EBE51FE72AB925ED8 /* TableViewCellLayoutCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellLayoutCreator.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellLayoutCreator.swift; sourceTree = "<group>"; };
 		41D460066FCDB7B600345692C92B9A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,16 +118,16 @@
 		58144ADE8EB37D44FC8B2A9FC8ACC830 /* Pods-JVTableViewCellLayoutCreator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTableViewCellLayoutCreator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		60F43CB89F06CA05A02F1F917641367C /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B39325B32082E4C98D110371572787 /* Pods-JVTableViewCellLayoutCreator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTableViewCellLayoutCreator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65EA4C001C5335A90EE5958A09A3E086 /* JVTableViewCellLayoutCreator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVTableViewCellLayoutCreator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65EA4C001C5335A90EE5958A09A3E086 /* JVTableViewCellLayoutCreator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JVTableViewCellLayoutCreator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EE7FCDE5FE2F7C3F0EE26480432745A /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
 		709F20FA60A002FD8BA02E92E46B98AE /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
 		7A8D1453558790E82EE14FD0932C7D14 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
 		7D20F224E0AC10853D6C9738D737C80A /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
 		800CF3BB326B50C56188B820113D9651 /* JVTableViewCellLayoutCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTableViewCellLayoutCreator-prefix.pch"; sourceTree = "<group>"; };
 		89800642DE387E6F743E9B16F4B15719 /* Pods-JVTableViewCellLayoutCreator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTableViewCellLayoutCreator_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6EA189D1E90298A13C15FBDAE88490 /* Pods_JVTableViewCellLayoutCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVTableViewCellLayoutCreator_Tests.framework; path = "Pods-JVTableViewCellLayoutCreator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79D835B007C15943D0BB52172AE9C6A /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6EA189D1E90298A13C15FBDAE88490 /* Pods_JVTableViewCellLayoutCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVTableViewCellLayoutCreator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79D835B007C15943D0BB52172AE9C6A /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD69967A08C4A6C5F40581A4EBF1D72F /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		AF7B6CECADC863B24E71079BF0218FF1 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		AFFEE985F3B23B23733D9F099E865E66 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		C1EE78318FAD96E15D6CF672D0FAF759 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88E189F2E782B56E453E54427BAB9BC /* JVDebugProcessorMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVDebugProcessorMacros.modulemap; sourceTree = "<group>"; };
 		C892F63DCEF1B18E74DE733638885D4A /* JVTableViewCellLayoutCreator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTableViewCellLayoutCreator-Info.plist"; sourceTree = "<group>"; };
-		CAC12B480177D01FEBAF6A791408798C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CAC12B480177D01FEBAF6A791408798C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB22511CC0F3F1023595995EA469CF94 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
 		CB545C5237A7D0F3767682432E91456A /* JVTableViewCellLayoutCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTableViewCellLayoutCreator.modulemap; sourceTree = "<group>"; };
 		CCFBF6A05CF3914AA218A3817C8843DE /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		E03038162550E082109185F5332BFB28 /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
 		E24C64C6CACBF4B0B4283A69880D701E /* JVDebugProcessorMacros-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVDebugProcessorMacros-umbrella.h"; sourceTree = "<group>"; };
 		E29F63D72C2C79E5D3D7E11BFD85647A /* JVDebugProcessorMacros-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVDebugProcessorMacros-prefix.pch"; sourceTree = "<group>"; };
-		E59CC625E9C9A0C05017F71080AA88E5 /* JVTableViewCellLayoutCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVTableViewCellLayoutCreator.framework; path = JVTableViewCellLayoutCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59CC625E9C9A0C05017F71080AA88E5 /* JVTableViewCellLayoutCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVTableViewCellLayoutCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444CBB51DE86D126F2B5D7F1F36A8E0 /* JVDebugProcessorMacros-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVDebugProcessorMacros-Info.plist"; sourceTree = "<group>"; };
 		F53F46A0629E07875C3DDA307ACB8295 /* TableViewCellInnerContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellInnerContentView.swift; path = JVTableViewCellLayoutCreator/Classes/TableViewCellInnerContentView.swift; sourceTree = "<group>"; };
 		F79733155876475451BD0E7D05A00EAF /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
@@ -386,7 +386,6 @@
 				C0985CF8945FDC5A60302C427C0C8118 /* Copyable.swift */,
 				32FACEE03A761DB41E4CE661204D970F /* Support Files */,
 			);
-			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -396,7 +395,6 @@
 				C1AEA6CD55CD1FD977CECC754CCDE8AB /* DebugProcessorMacros.swift */,
 				B5C18935430EC84477A57091C84EACBE /* Support Files */,
 			);
-			name = JVDebugProcessorMacros;
 			path = JVDebugProcessorMacros;
 			sourceTree = "<group>";
 		};
@@ -414,7 +412,6 @@
 				7A8D1453558790E82EE14FD0932C7D14 /* UIViewFillExtension.swift */,
 				BEBF7A5AA28D5D95FDC9691A77631DBA /* Support Files */,
 			);
-			name = JVConstraintEdges;
 			path = JVConstraintEdges;
 			sourceTree = "<group>";
 		};
@@ -575,6 +572,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -754,7 +752,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JVTableViewCellLayoutCreator_Tests/Pods-JVTableViewCellLayoutCreator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JVTableViewCellLayoutCreator_Tests/Pods-JVTableViewCellLayoutCreator_Tests.modulemap";
@@ -788,7 +786,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros.modulemap";
 				PRODUCT_MODULE_NAME = JVDebugProcessorMacros;
@@ -822,7 +820,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator.modulemap";
 				PRODUCT_MODULE_NAME = JVTableViewCellLayoutCreator;
@@ -886,14 +884,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -916,7 +913,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JVTableViewCellLayoutCreator_Tests/Pods-JVTableViewCellLayoutCreator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JVTableViewCellLayoutCreator_Tests/Pods-JVTableViewCellLayoutCreator_Tests.modulemap";
@@ -985,7 +982,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -993,7 +990,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -1016,7 +1013,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
 				PRODUCT_MODULE_NAME = JVConstraintEdges;
@@ -1049,7 +1046,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
 				PRODUCT_MODULE_NAME = JVContentType;
@@ -1083,7 +1080,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
 				PRODUCT_MODULE_NAME = JVConstraintEdges;
@@ -1117,7 +1114,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVTableViewCellLayoutCreator/JVTableViewCellLayoutCreator.modulemap";
 				PRODUCT_MODULE_NAME = JVTableViewCellLayoutCreator;
@@ -1150,7 +1147,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
 				PRODUCT_MODULE_NAME = JVContentType;
@@ -1182,7 +1179,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JVDebugProcessorMacros/JVDebugProcessorMacros.modulemap";
 				PRODUCT_MODULE_NAME = JVDebugProcessorMacros;
